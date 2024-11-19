@@ -1,7 +1,6 @@
-import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
 import { Button } from '../ui/Button';
-import { Settings, Palette, Bell, Database, Target } from 'lucide-react';
+import { Palette, Bell, Database, } from 'lucide-react';
 import { useApp } from '../../contexts/AppContext';
 import { useTheme } from '../../contexts/ThemeContext';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useApp } from '../../contexts/AppContext';
 import { Play, Pause } from 'lucide-react';
 import { Card, CardContent } from '../ui/Card';

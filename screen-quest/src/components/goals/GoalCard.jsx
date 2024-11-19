@@ -1,6 +1,5 @@
-import React from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
-import { Target, Clock, Trash } from 'lucide-react';
+import { Target, Trash } from 'lucide-react';
 import Button from '../ui/Button';
 import Badge from '../ui/Badge';
 import ProgressBar from '../ui/ProgressBar';
@@ -49,6 +48,7 @@ const GoalCard = ({ goal, onDelete }) => {
                 variant="ghost"
                 size="sm"
                 className="text-red-400 hover:text-red-300"
+                // eslint-disable-next-line react/prop-types
                 onClick={() => onDelete(goal.id)}
               >
                 <Trash className="w-4 h-4" />

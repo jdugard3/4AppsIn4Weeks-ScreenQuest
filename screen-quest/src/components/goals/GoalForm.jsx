@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '../ui/Card';
 import Button from '../ui/Button';
 import { Target, Clock, X } from 'lucide-react';
